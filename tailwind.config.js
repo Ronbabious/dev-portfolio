@@ -5,7 +5,11 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        bebasN: ['"Bebas Neue"', '"cursive"'],
+      },
+    },
   },
   plugins: [
     require("tailwind-scrollbar-hide"),
