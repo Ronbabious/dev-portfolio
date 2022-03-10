@@ -7,6 +7,32 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { gitHubLink, linkedInLink, InstagramLink } from "./links";
+
+const stylingForIcons = "text-center";
+const iconStyling = "pr-10 h-8 w-8";
+
+const SocialLine = ({ styling, iconStyle }) => {
+  return (
+    <div className="flex">
+      <a href={gitHubLink}>
+        <div class={styling}>
+          <FontAwesomeIcon className={iconStyle} icon={faGithub} />
+        </div>
+      </a>
+      <a href={linkedInLink}>
+        <div class={styling}>
+          <FontAwesomeIcon className={iconStyle} icon={faLinkedin} />
+        </div>
+      </a>
+      <a href={InstagramLink}>
+        <div class={styling}>
+          <FontAwesomeIcon className={iconStyle} icon={faInstagram} />
+        </div>
+      </a>
+    </div>
+  );
+};
+
 const Home = () => {
   return (
     <div class="flex flex-col justify-center items-center gap-1  h-screen max-h-screen ">
@@ -16,22 +42,8 @@ const Home = () => {
       <div class="pt-2 text-center text-4xl font-bebasN">
         <p>Hello, My Name is Aron</p>
       </div>
-      <a className="flex">
-        <a className="flex" href={gitHubLink}>
-          <div class="text-center p-1">
-            <FontAwesomeIcon className="pr-3 h-8 w-8" icon={faGithub} />
-          </div>
-        </a>
-        <a className="flex" href={linkedInLink}>
-          <div class="text-center p-1">
-            <FontAwesomeIcon className="pr-3 h-8 w-8" icon={faLinkedin} />
-          </div>
-        </a>
-        <a className="flex" href={InstagramLink}>
-          <div class="text-center p-1">
-            <FontAwesomeIcon className="pr-3 h-8 w-8" icon={faInstagram} />
-          </div>
-        </a>
+      <a>
+        <SocialLine styling={stylingForIcons} iconStyle={iconStyling} />
       </a>
     </div>
     /*       <p>This is where main content is</p>
