@@ -9,7 +9,7 @@ import {
 
 function Sidebar() {
   return (
-    <div className="flex flex-grow text-white text-gray-500 p-5 text-xl  flex border-gray-500 overflow-y-auto scrollbar-hide h-screen items-center justify-center">
+    <div className="flex flex-grow border-r-[1px] border-gray-600 text-white text-gray-500 p-5 text-xl  flex border-gray-500 overflow-y-auto scrollbar-hide h-screen items-center justify-center">
       <div className="space-y-2">
         <div>
           <button className="flex items-center space-x-2 hover:text-white">
