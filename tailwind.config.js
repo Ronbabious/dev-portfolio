@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      color: {
+        icelandBlue: '#004DF9'
+      },
       fontFamily: {
         bebasN: ['"Bebas Neue"', '"cursive"'],
       },

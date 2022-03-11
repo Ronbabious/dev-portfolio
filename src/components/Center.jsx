@@ -7,7 +7,7 @@ import Projects from "./Projects";
 
 const Center = () => {
   return (
-    <div className=" text-green-400 overscroll-contain scrollbar-hide">
+    <div className=" text-icelandBlue overscroll-contain scrollbar-hide">
       <section className="scrollbar-hide">
         <Home />
         <About />
