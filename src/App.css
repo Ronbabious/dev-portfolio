@@ -1,7 +1,11 @@
-html {
-    scroll-behavior: smooth;
+html::-webkit-scrollbar {
+    width: 0px;
 }
-.home{
+html {
   scroll-behavior: smooth;
+}
 
+.p2 {
+fill: rgb(184, 137, 19);
+left: 20%;
 }

@@ -1,17 +1,6 @@
 const parallax1 = (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.79 261.43">
-    <defs>
-      <style></style>
-    </defs>
-    <g id="Layer_2" data-name="Layer 2">
-      <g id="Layer_1-2" data-name="Layer 1">
-        <polygon
-          id="Path1"
-          class="cls-1"
-          points="16.79 261.43 0 246.08 0 0 16.79 12.2 16.79 261.43"
-        />
-      </g>
-    </g>
+  <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+    <path class="cls-1" d="M16.79,261.43,0,246.08V0L16.79,12.2Z" />
   </svg>
 );
 
