@@ -6,6 +6,7 @@ import {
   HomeIcon,
   UserIcon,
 } from "@heroicons/react/outline";
+import logoImgUrl from "../images/logo.jpg";
 
 const buttonCss = "flex items-center space-x-2 py-1 hover:text-icelandBlue";
 
@@ -55,7 +56,7 @@ const Sidebar = () => {
         name="Logo-Image"
         className="flex justify-center items-center border-r-[1px]"
       >
-        <img src="./src/images/logo.svg" className="pt-5 h-32 w-32 "></img>
+        <img src={logoImgUrl} className="pt-5 h-32 w-32 "></img>
       </div>
       <div
         name="Sidebar"
