@@ -6,7 +6,7 @@ import {
   HomeIcon,
   UserIcon,
 } from "@heroicons/react/outline";
-import logoImgUrl from "../images/logo.jpg";
+import logoImgUrl from "../images/logo.svg";
 
 const buttonCss = "flex items-center space-x-2 py-1 hover:text-icelandBlue";
 
