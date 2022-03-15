@@ -14,37 +14,38 @@ const iconStyling = "pr-10 h-8 w-8";
 const SocialLine = ({ styling, iconStyle }) => {
   return (
     <div className="flex">
-      <a href={gitHubLink}>
-        <div class={styling}>
+      <div class={styling}>
+        <a href={gitHubLink}>
           <FontAwesomeIcon className={iconStyle} icon={faGithub} />
-        </div>
-      </a>
-      <a href={linkedInLink}>
-        <div class={styling}>
+        </a>
+      </div>
+      <div class={styling}>
+        <a href={linkedInLink}>
           <FontAwesomeIcon className={iconStyle} icon={faLinkedin} />
-        </div>
-      </a>
-      <a href={InstagramLink}>
-        <div class={styling}>
+        </a>
+      </div>
+      <div class={styling}>
+        <a href={InstagramLink}>
           <FontAwesomeIcon className={iconStyle} icon={faInstagram} />
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   );
 };
 
 const Home = () => {
   return (
-    <div class="flex flex-col justify-center items-center gap-1  h-screen max-h-screen ">
+    <div
+      id="home"
+      class="flex flex-col justify-center items-center gap-1  h-screen max-h-screen "
+    >
       <div class="h-60 w-60 ">
         <img src="./src/images/profilephoto.jpg" class="rounded-full"></img>
       </div>
       <div class="pt-2 text-center text-4xl font-bebasN">
         <p>Hello, My Name is Aron</p>
       </div>
-      <a>
-        <SocialLine styling={stylingForIcons} iconStyle={iconStyling} />
-      </a>
+      <SocialLine styling={stylingForIcons} iconStyle={iconStyling} />
     </div>
     /*       <p>This is where main content is</p>
       <img className="" src="/src/images/developer.jpg" />

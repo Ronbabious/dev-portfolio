@@ -21,7 +21,7 @@ const IndividualTimeLineElements = (props) => {
 
 const TimelineComponent = (props) => {
   return (
-    <div className="p-10  bg-gray-200 rounded-lg border">
+    <div id="education" className="p-10  bg-gray-200 rounded-lg border">
       <ol class="relative border-l pt-3 border-gray-200 dark:border-gray-700">
         <li class="mb-10 ml-6">
           <div>

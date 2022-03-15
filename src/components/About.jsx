@@ -30,7 +30,7 @@ const SkillItems = ({ text1, text2, barPercentage }) => {
 const About = () => {
   return (
     <div name="About-me">
-      <section name="Section-me">
+      <section id="about" name="Section-me" className="scroll-mt-24">
         <div name="container">
           <div class="text-4xl font-bebasN">
             <p className="pl-2">About Me</p>
