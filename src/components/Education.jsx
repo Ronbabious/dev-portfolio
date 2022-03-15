@@ -36,11 +36,6 @@ const TimelineComponent = (props) => {
                 nameOfPlace={education.institution}
                 year={education.bachelorYear}
               />
-              <IndividualTimeLineElements
-                nameEducation={education.bachelorName}
-                nameOfPlace={education.institution}
-                year={education.bachelorYear}
-              />
             </div>
           </div>
         </li>
