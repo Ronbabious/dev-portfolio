@@ -1,4 +1,5 @@
 import React from "react";
+import icelandFlagImgURL from "../images/icelandFlag.png";
 
 const ProgressBar = (props) => {
   return (
@@ -44,7 +45,7 @@ const About = () => {
               <div class="">
                 <p className="text-center">I'm from Iceland!</p>
                 <img
-                  src="./src/images/icelandFlag.png"
+                  src={icelandFlagImgURL}
                   className="rounded-full h-44 w-44"
                 ></img>
               </div>
