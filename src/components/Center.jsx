@@ -4,16 +4,19 @@ import Contact from "./Contact";
 import Education from "./Education";
 import Home from "./Home";
 import Projects from "./Projects";
+import Temp from "./Temp";
 
 const Center = () => {
   return (
     <div className="overscroll-contain scrollbar-hide">
       <section className="scrollbar-hide">
         <Home />
-        <About />
+        <Temp />
+
+        {/*         <About />
         <Education />
         <Projects />
-        <Contact />
+        <Contact /> */}
       </section>
     </div>
   );

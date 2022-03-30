@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { gitHubLink, linkedInLink, InstagramLink } from "./links";
 import headShotImgUrl from "../images/profilephoto.jpg";
+import Temp from "./Temp";
 
 const stylingForIcons = "text-center";
 const iconStyling = "pr-10 h-8 w-8";
@@ -47,7 +48,8 @@ const Home = () => {
         <p>Hello, My Name is Aron</p>
       </div>
       <SocialLine styling={stylingForIcons} iconStyle={iconStyling} />
-      <div name="parallaxContainer" className="absolute h-full w-full">
+
+      {/*       <div name="parallaxContainer" className="absolute h-full w-full">
         <svg
           width="200px"
           height="200px"
@@ -57,7 +59,7 @@ const Home = () => {
         >
           <path class="cls-1" d="M16.79,261.43,0,246.08V0L16.79,12.2Z" />
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 };
